@@ -1,5 +1,8 @@
 import React from "react";
 import {Link} from 'react-router-dom'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode, faHome, faFileAlt, faToolbox, faBriefcase, faEnvelope, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+
 const Header = () => {
   return (
     <React.Fragment>
@@ -8,37 +11,37 @@ const Header = () => {
           <ul>
             <li>
               <Link to="/" className="nav-link scrollto active">
-                <i className="bx bx-home"></i> <span>Home</span>
+              <FontAwesomeIcon icon={faHome} className="icon" /> <span>Home</span>
               </Link>
             </li>
             <li>
               <Link to="/about" className="nav-link scrollto">
-                <i className="bx bx-user"></i> <span>About</span>
+              <FontAwesomeIcon icon={faInfoCircle} className="icon" /> <span>About</span>
               </Link>
             </li>
             <li>
               <Link to="/skill" className="nav-link scrollto">
-                <i className="bx bx-user"></i> <span>Skills</span>
+              <FontAwesomeIcon icon={faCode} className="icon" /> <span>Skills</span>
               </Link>
             </li>
             <li>
               <Link to="/resume" className="nav-link scrollto">
-                <i className="bx bx-file-blank"></i> <span>Resume</span>
+              <FontAwesomeIcon icon={faFileAlt} className="icon" /> <span>Resume</span>
               </Link>
             </li>
             <li>
               <Link to="/portfolio" className="nav-link scrollto">
-                <i className="bx bx-book-content"></i> <span>Portfolio</span>
+              <FontAwesomeIcon icon={faBriefcase} className="icon" /> <span>Portfolio</span>
               </Link>
             </li>
             <li>
               <Link to="/services" className="nav-link scrollto">
-                <i className="bx bx-server"></i> <span>Services</span>
+              <FontAwesomeIcon icon={faToolbox} className="icon" /> <span>Services</span>
               </Link>
             </li>
             <li>
               <Link to="/contact" className="nav-link scrollto">
-                <i className="bx bx-envelope"></i> <span>Contact</span>
+              <FontAwesomeIcon icon={faEnvelope} className="icon" /> <span>Contact</span>
               </Link>
             </li>
           </ul>

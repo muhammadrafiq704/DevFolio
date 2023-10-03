@@ -8,7 +8,7 @@ import Skills from "../Portfolio/Skills";
 import Resume from "../Portfolio/Resume";
 import Portfolio from "../Portfolio/Portfolio";
 import Services from "../Portfolio/Services";
-import Testimonials from "../Portfolio/Testimonials";
+// import Testimonials from "../Portfolio/Testimonials";
 import Contact from "../Portfolio/Contact";
 import Footer from "../Portfolio/Footer";
 
@@ -24,7 +24,7 @@ const Home = () => {
       <Resume />
       <Portfolio />
       <Services />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
       

@@ -1,5 +1,4 @@
 import React from "react";
-// import ProductCard from "./Otherjsxfile/ProductCard";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 import Home from "./components/Pages/Home";
@@ -28,7 +27,6 @@ function App(){
         </Routes>
       </Router>
 
-      {/* <ProductCard/> */}
     </React.Fragment>
   )
 }

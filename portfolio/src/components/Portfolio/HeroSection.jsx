@@ -1,5 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaInstagram,
+  FaWhatsapp,
+  FaTwitter,
+  FaBehance,
+} from "react-icons/fa";
+import Button from "@mui/material/Button";
+
 const HeroSection = () => {
   return (
     <React.Fragment>
@@ -8,44 +20,72 @@ const HeroSection = () => {
           <h1>Muhammad Rafiq</h1>
           <p>
             I'm{" "}
-            <span
-              className="typed"
-              data-typed-items="Designer, Developer, Freelancer, Photographer"
-            >
-              UX/UI Designer And MERN Stack Developer
+            <span>
+              <Typewriter
+                options={{
+                  strings: [
+                    "MERN Stack Developer",
+                    "UX/UI Designer",
+                    "UX Researcher",
+                    "UI Designer",
+                    "Visual Designer",
+                    "Interaction Designer",
+                    "Motion/Animation Designer",
+                    "Product Designer",
+                    "Figma Expert",
+                    "Adobe XD Expert",
+                    "Illustration",
+                    "Sketch",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </span>
           </p>
           <div className="social-links">
             <Link to="https://twitter.com/Muhamma08970093" className="twitter">
-              <i className="bx bxl-twitter"></i>
+              <FaTwitter className="social-media-icon" />
             </Link>
             <Link
               to="https://www.facebook.com/sameer.lahari.1"
               className="facebook"
             >
-              <i className="bx bxl-facebook"></i>
+              <FaFacebook className="social-media-icon" />
             </Link>
             <Link
               to="https://github.com/muhammadrafiq704"
               className="google-plus"
             >
-              <i className="bx bxl-github"></i>
+              <FaGithub className="social-media-icon" />
             </Link>
             <Link
               to="https://www.linkedin.com/in/muhammad-rafiq-337747231/"
               className="linkedin"
             >
-              <i className="bx bxl-linkedin"></i>
+              <FaLinkedin className="social-media-icon" />
+            </Link>
+            <Link
+              to="https://www.behance.net/muhammadrafiq30"
+              className="Behance"
+            >
+              <FaBehance className="social-media-icon" />
+            </Link>
+            <Link to="" className="Behance">
+              <FaWhatsapp className="social-media-icon" />
+            </Link>
+            <Link to="" className="Behance">
+              <FaInstagram className="social-media-icon" />
             </Link>
             <a
               href="https://drive.google.com/file/d/1-9J994iVC4F-Iqk8RPNY-XqOBMlqqMvF/view?usp=drive_link"
               target="_blank"
+              download="your-resume.pdf" // Add the "download" attribute with the desired file name
               className="greenBtn"
               rel="noreferrer"
             >
-             <button className="myResume" >  My Resume</button>
+              <Button variant="contained">Download Resume</Button>
             </a>
-           
           </div>
         </div>
       </section>

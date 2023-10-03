@@ -49,6 +49,10 @@ const About = () => {
                       <strong>City:</strong>{" "}
                       <span>Pakistan, Gilgit Baltistan</span>
                     </li>
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>Project based work:</strong> <span>Available</span>
+                    </li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
@@ -69,6 +73,10 @@ const About = () => {
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
                       <strong>Freelance:</strong> <span>Available</span>
+                    </li>
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>Remote:</strong> <span>Available</span>
                     </li>
                   </ul>
                 </div>

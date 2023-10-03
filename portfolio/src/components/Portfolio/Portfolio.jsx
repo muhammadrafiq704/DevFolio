@@ -8,10 +8,9 @@ const Portfolio = () => {
           <div className="section-title">
             <h2>Portfolio</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            Some landmarks of my previous projects
+            which were completed and successfully 
+            handover the clients with fully satisfactory
             </p>
           </div>
 

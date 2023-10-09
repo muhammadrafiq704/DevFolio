@@ -35,10 +35,10 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/muhammad-rafiq-337747231/" className="linkedin">
             <FaLinkedin className="social-media-icon" />
             </a>
-            <a href="" className="linkedin">
+            <a href="#" className="linkedin">
             <FaWhatsapp className="social-media-icon" />
             </a>
-            <a href="" className="linkedin">
+            <a href="#" className="linkedin">
             <FaInstagram className="social-media-icon" />
             </a>
           </div>

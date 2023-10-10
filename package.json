@@ -33,7 +33,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "[my-framework] build --output public"
+    "build": "react-scripts build"
   },
   "vercel": {
     "outputDirectory": "public"

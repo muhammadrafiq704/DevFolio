@@ -20,25 +20,25 @@ const Footer = () => {
             I am excited to meet you, listen your problems and providing solutions for them
           </p>
           <div className="social-links">
-            <a href="https://twitter.com/Muhamma08970093" className="twitter">
+            <a href="https://twitter.com/Muhamma08970093" traget="_blank" className="twitter">
             <FaTwitter className="social-media-icon" />
             </a>
-            <a href="https://www.facebook.com/sameer.lahari.1" className="facebook">
+            <a href="https://www.facebook.com/sameer.lahari.1" traget="_blank" className="facebook">
             <FaFacebook className="social-media-icon" />
             </a>
-            <a href="https://www.behance.net/muhammadrafiq30" className="Behance">
+            <a href="https://www.behance.net/muhammadrafiq30" traget="_blank" className="Behance">
             <FaBehance className="social-media-icon" />
             </a>
-            <a href="https://github.com/muhammadrafiq704" className="Github">
+            <a href="https://github.com/muhammadrafiq704" traget="_blank" className="Github">
             <FaGithub className="social-media-icon" />
             </a>
-            <a href="https://www.linkedin.com/in/muhammad-rafiq-337747231/" className="linkedin">
+            <a href="https://www.linkedin.com/in/muhammad-rafiq-337747231/" traget="_blank" className="linkedin">
             <FaLinkedin className="social-media-icon" />
             </a>
-            <a href="#" className="linkedin">
+            <a href="#" traget="_blank" className="linkedin">
             <FaWhatsapp className="social-media-icon" />
             </a>
-            <a href="#" className="linkedin">
+            <a href="#" traget="_blank" className="linkedin">
             <FaInstagram className="social-media-icon" />
             </a>
           </div>

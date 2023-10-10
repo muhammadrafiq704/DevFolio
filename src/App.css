@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.profile{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(211, 197, 197);
+ width: 60%;
+ margin: auto;
+}
+
+/* login from css */
+.LoginForm{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
+  background-color: rgb(200, 175, 224);
+  
+}
+.LoginForm label{
+  color: #4521f7;
+  margin: 5px;
+}
+.LoginForm input{
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 30%;
+}
+.LoginForm input:hover{
+  background-color: #c4c2be;
+ border: none;
+}
+.LoginForm button{
+  padding: 10px;
+  margin: 15px;
+  width: 30%;
+  color: #7b61fb;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+}
+.LoginForm button:hover{
+  background-color: #7b61fb;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+/* signup form css */
+.SignUpForm{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
+  background-color: rgb(200, 175, 224);
+}
+.SignUpForm form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
+  /* background-color: rgb(134, 72, 191); */
+}
+.SignUpForm label{
+  color: #4521f7;
+  margin: 5px;
+}
+.SignUpForm input{
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 40%;
+}
+.SignUpForm input:hover{
+  background-color: #c4c2be;
+  border: none;
+ }
+ .SignUpForm button{
+  padding: 10px;
+  margin: 15px;
+  width: 40%;
+  color: #7b61fb;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+}
+.SignUpForm button:hover{
+  background-color: #7b61fb;
+  color: aliceblue;
+  cursor: pointer;
+}
+.prevBtn{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  color:  #7b61fb;
+}
+.link{
+  color: red;
+}
+/* login link */
+
+.loginBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  font-size: 25px;
+  margin: 20px auto;
+  color: orange;
+  background-color: #f0dec1;
+}
+/* Fromik and yup css */
+.Formik_Form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px;
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 12px #c7cccc;
+  border-radius: 24px;
+}
+.Formik_Form label{
+  color: #4521f7;
+  margin: 5px;
+}
+.Formik_Form input{
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 40%;
+}
+.Formik_Form input:hover{
+  background-color: #c4c2be;
+  border: none;
+  
+ }
+ .Formik_Form button{
+  padding: 10px;
+  margin: 15px;
+  width: 40%;
+  color: #7b61fb;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+}
+.Formik_Form button:hover{
+  background-color: #7b61fb;
+  color: aliceblue;
+  cursor: pointer;
+  
+}
+.Formik_Form {
+  color: #d57e0c;
+}
+.message{
+  color: rgb(108, 106, 106);
+  font-size: small;
+
+}
+.link{
+  color: #d57e0c;
+  margin-left: 3px;
+  text-decoration: none;
+  font-size: 12px;
+  
+}
+.link:hover{
+opacity: 0.6;
+}
+
+
+
+=======
+>>>>>>> 9d1a6a2ab90faddc4c70dddf6793013d58d37be8

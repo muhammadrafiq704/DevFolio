@@ -44,37 +44,41 @@ const HeroSection = () => {
             </span>
           </p>
           <div className="social-links">
-            <Link to="https://twitter.com/Muhamma08970093" className="twitter">
+            <Link to="https://twitter.com/Muhamma08970093"   target="_blank" className="twitter">
               <FaTwitter className="social-media-icon" />
             </Link>
             <Link
               to="https://www.facebook.com/sameer.lahari.1"
               className="facebook"
+              target="_blank"
             >
               <FaFacebook className="social-media-icon" />
             </Link>
             <Link
               to="https://github.com/muhammadrafiq704"
               className="google-plus"
+              target="_blank"
             >
               <FaGithub className="social-media-icon" />
             </Link>
             <Link
               to="https://www.linkedin.com/in/muhammad-rafiq-337747231/"
               className="linkedin"
+              target="_blank"
             >
               <FaLinkedin className="social-media-icon" />
             </Link>
             <Link
               to="https://www.behance.net/muhammadrafiq30"
               className="Behance"
+              target="_blank"
             >
               <FaBehance className="social-media-icon" />
             </Link>
-            <Link to="" className="Behance">
+            <Link to="" className="Behance" target="_blank">
               <FaWhatsapp className="social-media-icon" />
             </Link>
-            <Link to="" className="Behance">
+            <Link to="" className="Behance" target="_blank">
               <FaInstagram className="social-media-icon" />
             </Link>
             <a

@@ -188,13 +188,13 @@ const Contact = () => {
                     <p className="form-errors">{errors.message}</p>
                   ) : null}
                 </div>
-                <div className="my-3">
+                {/* <div className="my-3">
                   <div className="loading">Loading</div>
                   <div className="error-message"></div>
                   <div className="sent-message">
                     Your message has been sent. Thank you!
                   </div>
-                </div>
+                </div> */}
                 <div className="text-center">
                   <Button variant="contained" onClick={handleClick}>
                     Submit Now

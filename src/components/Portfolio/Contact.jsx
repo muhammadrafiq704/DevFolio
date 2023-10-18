@@ -17,6 +17,7 @@ const Contact = () => {
   const [Loading, setLoading] = useState(false);
 
   useEffect(() => emailjs.init("rm7P0uYj_0xhvG3Cf"), []);
+
   const handleClick = async (e) => {
     e.preventDefault();
     const serviceId = "service_0ve7nln";
@@ -85,6 +86,7 @@ const Contact = () => {
         action.resetForm();
       },
     });
+
     return (
     <React.Fragment>
       <section id="contact" className="contact">
@@ -188,17 +190,18 @@ const Contact = () => {
                     <p className="form-errors">{errors.message}</p>
                   ) : null}
                 </div>
-                {/* <div className="my-3">
+                <div className="my-3">
                   <div className="loading">Loading</div>
                   <div className="error-message"></div>
                   <div className="sent-message">
                     Your message has been sent. Thank you!
                   </div>
-                </div> */}
-                <div className="text-center">
+                </div>
+                <div className="text-center" style={{marginTop:"5px"}}>
                   <Button variant="contained" onClick={handleClick}>
                     Submit Now
                   </Button>
+
                 </div>
               </form>
             </div>

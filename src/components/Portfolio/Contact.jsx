@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useEffect, useState } from "react";
-  import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import Button from "@mui/material/Button";
